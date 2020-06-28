@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Calculate your age in minutes!"
+        android:text="@string/title_age_in_miniutes"
         android:textColor="@color/blackColor"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -26,16 +25,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:padding="10dp"
-        android:text="AGE"
+        android:text="@string/title_age"
         android:background="@color/colorPrimaryDark"
         android:textColor="@color/whiteColor"
         android:textSize="24sp"
         android:textStyle="bold" />
 
     <Button
+        android:id="@+id/btnSelectDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select Date"
+        android:text="@string/title_select_date"
         android:layout_marginTop="15dp"
         android:textStyle="bold"
         android:textSize="20sp"
@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="dd/mm/yyyy"
+        android:text="No date selected"
         android:textColor="@color/blackColor"
         android:textSize="20sp" />
 
@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Selected date"
+        android:text="@string/title_selected_date"
         android:textColor="@color/greyColor"
         android:textSize="20sp" />
 
@@ -65,7 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="13231232"
+        android:text="-"
         android:textColor="@color/blackColor"
         android:textSize="20sp" />
 
@@ -74,7 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="In minutes till date"
+        android:text="@string/title_minutes_in_age"
         android:textColor="@color/greyColor"
         android:textSize="20sp" />
 
